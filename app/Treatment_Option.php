@@ -1,0 +1,93 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
+
+class Treatment_Option extends Model
+{
+    use SoftDeletes;
+
+    protected $table = "mst_treatment_option";
+
+    protected $fillable =[
+        'service_id',
+        'heading',
+        'description',
+        'subheading',
+        'acc_head_1',
+        'paragraph1',
+        'bullet1',
+        'content1',
+        'bullet2',
+        'content2',
+        'bullet3',
+        'content3',  
+        'bullet4'  ,
+        'content4'  ,
+        'bullet5'  ,
+        'content5'  ,
+        'acc_head_2',
+        'paragraph2',
+        'bullet11'  ,
+        'content11'  ,
+        'bullet22'  ,
+        'content22'  ,
+        'bullet33'  ,
+        'content33'  ,
+        'bullet44'  ,
+        'content44'  ,
+        'bullet55'  ,
+        'content55'  ,
+        'acc_head_3'  ,
+        'paragraph3'  ,
+        'bullet111'  ,
+        'content111',
+        'bullet222',
+        'content222',
+        'bullet333',
+        'content333',
+        'bullet444',
+        'content444',
+        'bullet555'  ,
+        'content555' ,
+        'acc_head_4' ,
+        'paragraph4',
+        'bullet1111',
+        'content1111',
+        'bullet2222',
+        'content2222',
+        'bullet3333',
+        'content3333',
+        'bullet4444',
+        'content4444',
+        'bullet5555',
+        'content5555',
+        'acc_head_5',
+        'paragraph5',
+        'bullet11111',
+        'content11111',
+        'bullet22222',
+        'content22222',
+        'bullet33333',
+        'content33333',
+        'bullet44444',
+        'content44444',
+        'bullet55555',
+        'content55555',
+        'acc_head_6',
+        'paragraph6',
+        'bullet111111',
+        'content111111',
+        'bullet222222',
+        'content222222',
+        'bullet333333',
+        'content333333',
+        'bullet444444' ,
+        'content444444',
+        'bullet555555',
+        'content555555',
+        'Deactivate'
+    ];
+}
